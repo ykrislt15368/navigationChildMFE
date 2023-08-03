@@ -1,0 +1,25 @@
+.navbar{
+  background-color: rgb(var(--foreground-rgb));
+  color: rgb(var(--callout-rgb));
+  display: flex;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.navbar-horizontal{
+  justify-content: flex-end;
+}
+
+.navbar-vertical{
+  flex-direction: column;
+}
+
+.navbar li{
+  margin: 0.85rem;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+.navbar li.active > a{
+  color: green;
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "home",
+    "path": "/dashboard",
+    "appname": "navigation"
+  },
+  {
+    "name": "profile",
+    "path": "/dashboard/profile",
+    "appname": "navigation",
+    "component": "profile",
+    "children": [
+      {
+        "name": "saved",
+        "path": "/dashboard/profile/saved",
+        "appname": "navigation",
+        "component": "saved"
+      },
+      {
+        "name": "edit",
+        "path": "/dashboard/profile/edit",
+        "appname": "navigation",
+        "component": "edit"
+      }
+    ]
+  },
+  {
+    "name": "settings",
+    "path": "/dashboard/settings",
+    "appname": "navigation",
+    "component": "settings"
+  }
+]
